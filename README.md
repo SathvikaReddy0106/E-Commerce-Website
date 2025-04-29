@@ -28,12 +28,15 @@ This section explains how admins manage the platform.
 •	The admin/add_product.php page allows admins to add new products by filling out a form with product details and uploading an image.
 
 •	The admin/manage_products.php page shows all products in a table with options to:
-	Edit product details.
-	Delete products from the store.
+
+  Edit product details.
+  
+  Delete products from the store.
 
 ## 3. Database Section
 
 This section explains how the database is structured.
+
 •	The users table stores information about all users (customers and admins):
 Usernames, emails, hashed passwords.
 A role field to differentiate between customers (user) and admins (admin).
