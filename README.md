@@ -1,7 +1,7 @@
 # E-Commerce-Website
 # Project Overview
 This e-commerce platform is designed for Customers and Admins to handle shopping and management functionalities. Below are concise, sectioned explanations for each part of the project
-# 1. User Section
+## 1. User Section
 This section explains how users interact with the website.
 
 •	Users can create an account on the register.php page by providing their name, email, and password. This allows them to access personalized features like the shopping cart.
@@ -16,7 +16,7 @@ This section explains how users interact with the website.
 
 •	The cart.php page lets users view, update, or remove items from their cart. It also shows the total cost of selected products.
 
-# 2. Admin Section
+## 2. Admin Section
 This section explains how admins manage the platform.
 
 •	Login: Admins log in via admin/login.php using their credentials.
@@ -31,7 +31,7 @@ This section explains how admins manage the platform.
 	Edit product details.
 	Delete products from the store.
 
-# 3. Database Section
+## 3. Database Section
 
 This section explains how the database is structured.
 •	The users table stores information about all users (customers and admins):
@@ -44,7 +44,7 @@ Names, prices, descriptions, and image filenames.
 •	The cart table keeps track of items added to users' carts:
 Links users to products and stores the quantity of each item.
 
-# 4. Flow of the Website
+## 4. Flow of the Website
 This section explains the flow of user actions.
 
 •	When a user registers the system validates the input, hashes the password, and saves the user data in the users table.
@@ -57,7 +57,7 @@ This section explains the flow of user actions.
 
 •	When an admin deletes a product the system removes the product entry from the products table, making it unavailable on the website. 
 
-# 5. Security Measures
+## 5. Security Measures
 
 This section explains how the website ensures security.
 
